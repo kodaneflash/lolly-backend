@@ -8,6 +8,10 @@ primary_region = "sjc"
   NODE_ENV = "production"
   PORT = "8081"
 
+# Explicitly specify the command to run worker.js instead of index.js
+[processes]
+  app = "node worker.js"
+
 [http_service]
   internal_port = 8081
   force_https = true
