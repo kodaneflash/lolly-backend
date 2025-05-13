@@ -184,6 +184,7 @@ const worker = new Worker('chat-processing', async job => {
     host: REDIS_HOST,
     port: REDIS_PORT,
     password: REDIS_PASSWORD,
+    family: 6, // Explicitly use IPv6
   },
   concurrency: 2, // Process 2 jobs concurrently
   removeOnComplete: {

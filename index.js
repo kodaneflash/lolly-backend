@@ -36,6 +36,7 @@ const chatQueue = new Queue('chat-processing', {
     host: REDIS_HOST,
     port: REDIS_PORT,
     password: REDIS_PASSWORD,
+    family: 6,
   },
   defaultJobOptions: {
     attempts: 3,
