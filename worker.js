@@ -259,14 +259,24 @@ async function main() {
       throw error;
     }
   }, {
-    connection: redisClient, // Use the created Redis client
-    concurrency: 2, // Process 2 jobs concurrently
+    connection: UPSTASH_REDIS_URL ? new Redis({
+      host: 'fdaa:18:f855:0:1::2',  // Direct IPv6 address - bypasses DNS resolution
+      port: 6379,
+      password: new URL(UPSTASH_REDIS_URL).password,
+      family: 6, // Explicitly use IPv6
+      maxRetriesPerRequest: null,
+      enableReadyCheck: true,
+    }) : {
+      host: 'localhost', 
+      port: 6379,
+    },
+    concurrency: 2,
     removeOnComplete: {
-      age: 3600, // Keep completed jobs for 1 hour
-      count: 100, // Keep last 100 completed jobs
+      age: 3600,
+      count: 100,
     },
     removeOnFail: {
-      age: 24 * 3600, // Keep failed jobs for 24 hours
+      age: 24 * 3600,
     },
   });
 
