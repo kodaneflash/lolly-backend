@@ -113,7 +113,17 @@ async function main() {
 
   // Initialize BullMQ Queue
   const chatQueue = new Queue('chat-processing', {
-    connection: redisClient,
+    connection: UPSTASH_REDIS_URL ? new Redis({
+      host: 'fdaa:18:f855:0:1::2',  // Direct IPv6 address - bypasses DNS resolution
+      port: 6379,
+      password: new URL(UPSTASH_REDIS_URL).password,
+      family: 6, // Explicitly use IPv6
+      maxRetriesPerRequest: null,
+      enableReadyCheck: true,
+    }) : { 
+      host: 'localhost', // Fallback for local dev if URL not set
+      port: 6379,
+    },
     defaultJobOptions: {
       attempts: 3,
       backoff: {
