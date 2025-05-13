@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "soundFile": "/Users/jamesarcher/Documents/r3f-virtual-girlfriend-backend/audios/Dhj51p58GI/message_sA3FXUEpHr_0.wav",
+    "duration": 2.22
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.01, "value": "X" },
+    { "start": 0.01, "end": 0.07, "value": "B" },
+    { "start": 0.07, "end": 0.12, "value": "A" },
+    { "start": 0.12, "end": 0.19, "value": "C" },
+    { "start": 0.19, "end": 0.33, "value": "B" },
+    { "start": 0.33, "end": 0.41, "value": "A" },
+    { "start": 0.41, "end": 0.55, "value": "B" },
+    { "start": 0.55, "end": 0.62, "value": "G" },
+    { "start": 0.62, "end": 0.69, "value": "C" },
+    { "start": 0.69, "end": 0.90, "value": "B" },
+    { "start": 0.90, "end": 0.97, "value": "E" },
+    { "start": 0.97, "end": 1.32, "value": "C" },
+    { "start": 1.32, "end": 1.46, "value": "H" },
+    { "start": 1.46, "end": 1.53, "value": "G" },
+    { "start": 1.53, "end": 1.60, "value": "B" },
+    { "start": 1.60, "end": 2.09, "value": "C" },
+    { "start": 2.09, "end": 2.22, "value": "X" }
+  ]
+}

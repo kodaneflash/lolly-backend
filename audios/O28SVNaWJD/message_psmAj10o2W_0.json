@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "soundFile": "/Users/jamesarcher/Documents/r3f-virtual-girlfriend-backend/audios/O28SVNaWJD/message_psmAj10o2W_0.wav",
+    "duration": 0.86
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.01, "value": "X" },
+    { "start": 0.01, "end": 0.30, "value": "B" },
+    { "start": 0.30, "end": 0.37, "value": "C" },
+    { "start": 0.37, "end": 0.58, "value": "E" },
+    { "start": 0.58, "end": 0.86, "value": "X" }
+  ]
+}

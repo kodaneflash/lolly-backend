@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "soundFile": "/Users/jamesarcher/Documents/r3f-virtual-girlfriend-backend/audios/qpFYnJJfby/message_kMFdhKb6zu_0.wav",
+    "duration": 9.69
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.01, "value": "X" },
+    { "start": 0.01, "end": 0.05, "value": "B" },
+    { "start": 0.05, "end": 0.33, "value": "A" },
+    { "start": 0.33, "end": 1.56, "value": "B" },
+    { "start": 1.56, "end": 1.64, "value": "A" },
+    { "start": 1.64, "end": 1.90, "value": "F" },
+    { "start": 1.90, "end": 2.10, "value": "D" },
+    { "start": 2.10, "end": 2.18, "value": "C" },
+    { "start": 2.18, "end": 2.26, "value": "A" },
+    { "start": 2.26, "end": 2.52, "value": "B" },
+    { "start": 2.52, "end": 2.66, "value": "C" },
+    { "start": 2.66, "end": 2.87, "value": "B" },
+    { "start": 2.87, "end": 3.90, "value": "X" },
+    { "start": 3.90, "end": 4.17, "value": "B" },
+    { "start": 4.17, "end": 4.52, "value": "F" },
+    { "start": 4.52, "end": 4.59, "value": "E" },
+    { "start": 4.59, "end": 4.73, "value": "C" },
+    { "start": 4.73, "end": 4.94, "value": "B" },
+    { "start": 4.94, "end": 6.01, "value": "X" },
+    { "start": 6.01, "end": 6.42, "value": "C" },
+    { "start": 6.42, "end": 7.32, "value": "B" },
+    { "start": 7.32, "end": 7.39, "value": "F" },
+    { "start": 7.39, "end": 7.59, "value": "B" },
+    { "start": 7.59, "end": 7.67, "value": "A" },
+    { "start": 7.67, "end": 8.20, "value": "B" },
+    { "start": 8.20, "end": 8.34, "value": "C" },
+    { "start": 8.34, "end": 8.45, "value": "A" },
+    { "start": 8.45, "end": 8.56, "value": "B" },
+    { "start": 8.56, "end": 8.63, "value": "C" },
+    { "start": 8.63, "end": 8.77, "value": "E" },
+    { "start": 8.77, "end": 8.84, "value": "B" },
+    { "start": 8.84, "end": 9.12, "value": "E" },
+    { "start": 9.12, "end": 9.54, "value": "B" },
+    { "start": 9.54, "end": 9.69, "value": "X" }
+  ]
+}

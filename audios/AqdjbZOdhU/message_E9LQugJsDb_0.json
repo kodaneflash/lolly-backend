@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "soundFile": "/Users/jamesarcher/Documents/r3f-virtual-girlfriend-backend/audios/AqdjbZOdhU/message_E9LQugJsDb_0.wav",
+    "duration": 3.76
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.49, "value": "E" },
+    { "start": 0.49, "end": 0.70, "value": "C" },
+    { "start": 0.70, "end": 0.91, "value": "B" },
+    { "start": 0.91, "end": 1.40, "value": "F" },
+    { "start": 1.40, "end": 1.48, "value": "A" },
+    { "start": 1.48, "end": 1.54, "value": "C" },
+    { "start": 1.54, "end": 1.88, "value": "B" },
+    { "start": 1.88, "end": 2.02, "value": "E" },
+    { "start": 2.02, "end": 2.37, "value": "F" },
+    { "start": 2.37, "end": 2.51, "value": "B" },
+    { "start": 2.51, "end": 2.58, "value": "G" },
+    { "start": 2.58, "end": 3.07, "value": "B" },
+    { "start": 3.07, "end": 3.35, "value": "C" },
+    { "start": 3.35, "end": 3.56, "value": "B" },
+    { "start": 3.56, "end": 3.76, "value": "X" }
+  ]
+}

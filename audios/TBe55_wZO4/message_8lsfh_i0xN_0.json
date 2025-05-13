@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "soundFile": "/Users/jamesarcher/Documents/r3f-virtual-girlfriend-backend/audios/TBe55_wZO4/message_8lsfh_i0xN_0.wav",
+    "duration": 1.20
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.05, "value": "X" },
+    { "start": 0.05, "end": 0.11, "value": "B" },
+    { "start": 0.11, "end": 0.30, "value": "E" },
+    { "start": 0.30, "end": 0.37, "value": "F" },
+    { "start": 0.37, "end": 0.44, "value": "B" },
+    { "start": 0.44, "end": 0.65, "value": "C" },
+    { "start": 0.65, "end": 0.93, "value": "B" },
+    { "start": 0.93, "end": 1.20, "value": "X" }
+  ]
+}
